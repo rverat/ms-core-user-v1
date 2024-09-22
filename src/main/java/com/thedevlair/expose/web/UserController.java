@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
-@RequestMapping("/ms-core-users/v1")
+@RequestMapping("/v1/users")
 @Tag(name
         = "User Controller", description = "Operations related to users")
 public class UserController {

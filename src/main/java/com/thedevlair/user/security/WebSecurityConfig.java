@@ -24,10 +24,10 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableMethodSecurity
 public class WebSecurityConfig {
     private static final String[] PERMITTED_URLS = new String[]{
-            "/ms-core-users/v1/signUp",
-            "/ms-core-users/v1/activateUser/**",
-            "/ms-core-users/v1/signIn",
-            "/ms-core-users/v1/refreshToken",
+            "/v1/users/signUp",
+            "/v1/users/activateUser/**",
+            "/v1/users/signIn",
+            "/v1/users/refreshToken",
             "/v2/api-docs",
             "/api-docs",
             "/actuator/**"
